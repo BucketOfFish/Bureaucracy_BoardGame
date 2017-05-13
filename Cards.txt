@@ -1,0 +1,111 @@
+Bureaucracy Game Cards
+
+Factions:
+
+- Zombie Hordes - instead of removing other players' coins by attacking, you can recruit that many troops instead
+- Sentient Space Ooze - you recruit an extra troop at the beginning of each of your turns
+- The High Council - your vote counts twice
+- The High Court - there can be two laws in play simultaneously - when a law would be repealed, you decide which one is repealed
+- Convict Colony - you do not need to follow the law
+- Crazed Hermit - you can't gain any coins or troops - if you have no troops, recruit a troop - other players can't attack you
+- Ghost Town - you can vote after you lose the game
+- Pile of Puppies - you are always allies with everyone - cards concerning the breaking or forming of alliances do not affect you
+- Tear in Spacetime - any time a troop successfully attacks you, destroy it
+- House of Smoke and Shadow - your action cards are hidden
+- Suicide Cult - if you lose the game, you win the game
+- The Mirror Sea - whenever you would recruit a troop, instead you recruit two - whenever another player attacks you, they recruit an additional attacker for each troop attacking you (the new attackers are also attacking you)
+- Temple of Oracles - when you would flip a card from the deck, instead look at the top two cards and pick one - put the other on the bottom of the deck
+- Mental Asylum - all your votes are decided by coin flip
+- Dojo of the Thousand Fists - at the beginning of each player's turn you can reassign any number of your troops as attackers or defenders
+- Militia Outposts - your attacks can't be vetoed
+- Ministry of Obfuscation - all votes are by secret ballot
+- Guild of Counterfeiters - whenever you would gain a coin, you gain two coins instead
+- Angry Mob - you can't recruit defenders - you recruit two extra troops at the beginning of your turn
+- Caves of Maddening Whispers - you can't recruit troops - whenever a troop attacks you successfully, it becomes yours at the end of combat
+- Masses of the Poor and Wretched - you can't have more than one coin - at the beginning of each player's turn, recruit a troop
+- Tribe of the Mountain Giants - your attackers and defenders are twice as effective in combat
+- Order of the Holy Law - your allies can't attack you
+- Slick-Tongued Ambassadors - during your turn you can form alliances unilaterally - your allies don't gain coins due to alliances with you
+- Guild of Assassins - every time you lose a troop, each other player loses a troop - your troops cost 6 coins each
+- Prophets of Doom - at the beginning of your turn, roll a die - you win the game when you've rolled a combined total of 40 this way
+- Lordly Estates - you start the game with three troops and ten coins
+- Sewer People - once per turn on your turn you can retrieve the top card of the discard pile if it's an action
+- Band of Thieves - when one of your troops successfully attacks another player, they lose an additional coin and you gain a coin
+- Sentry Towers - play with the top card of the deck revealed - at the end of your turn you can choose to put the top card of the deck on the bottom of the deck
+/*- Ruined City - you can't have any troops - other players can't attack you - at the beginning of every player's turn you lose a coin*/
+/*- * - at the beginning of each player's turn you recruit a defender - each player must attack you during their turn if able */
+/*- Doppelgangers - at the beginning of the game, chose another player and become a copy of their faction
+/*- Cursed Spirits - before beginning your turn, chose another player and switch factions with them
+
+Cards:
+
+action - keep this card, and you can play at the appropriate time
+motion - all players vote, and a majority passes
+law - replaces any currently existing law, and changes gameplay - requires vote like a motion
+
+- <motion> - Exchange of Power - players with largest and smallest troops swap troops
+- <motion> - Disarmament - destroy all troops
+- <motion> - Mutually Assured Destruction - each player recruits three extra troops
+- <motion> - Trade Agreement - each player gains two extra coins
+- <motion> - Defund the Militaries - all troops get converted to coins
+- <motion> - Love and Peace - all players become allies with each other
+- <motion> - Call for Transparency - each player must reveal one of their targets
+- <motion> - Armistice - nobody can attack until your next turn
+- <motion> - Restrain the Troops - you can't attack this turn
+- <motion> - Enact Death, Collect Taxes - each player loses one troop and one coin
+- <motion> - Witch Hunt - each player votes for a player - each player with the most number of votes loses a troop
+- <motion> - Recruitment Drive - you recruit a troop
+- <motion> - Declaration of War - all defenders become attackers
+- <motion> - Illegalize Counterfeiting - double all coins
+- <motion> - Ostracism - a player of your choice (chosen before voting) loses the game
+- <motion> - Court Martial - destroy a troop of your choice (chosen before voting)
+- <motion> - Redistribution of Wealth - each player secretly chooses another player to take a coin from - then take those coins simultaneously
+- <motion> - Wipe the Slate Clean - repeal all laws
+- <motion> - Investigative Committees - discard all actions
+- <motion> - Reorganize the Armies - destroy all troops, then each player rolls a die and gains that many troops
+/*- <motion> nobody can veto an attack this turn*/
+
+- <action> - Persuade - change one player's vote
+- <action> - Mistrust Your Friends - if an ally is attacking you this turn, they must attack as though they were not an ally
+- <action> - Provoke to Anger - player must attack this turn if able
+- <action> - Stuff the Ballots - you may vote twice this turn
+- <action> - False Orders - change the target of an attack
+- <action> - Discount Soldiers - lose three coins and recruit two troops
+- <action> - Declare Unconstitutional - repeal a law
+- <action> - Buy Out Everyone - if you have 50 or more coins, you win
+- <action> - Emergency Funds - if a player would lose the game, you can prevent the loss, discard all their coins, and give them one of your coins
+- <action> - Send Ambassadors - become allies with another player
+- <action> - Hire Mercenaries - recruit three extra troops - at the end of the turn, lose three troops
+- <action> - Defensive Positions - all your attackers become defenders
+- <action> - Mediate - two players of your choice are now allies
+- <action> - Impugn Publicly - break alliance with another player
+- <action> - Force Retirement - turn one troop into a coin
+- <action> - Mislead in Fog of War - reduce the number of troops attacking a player by three (they are not destroyed)
+- <action> - Radical Rebranding - draw three faction cards (among currently unrepresented factions), and choose one to become your new faction
+- <action> - Disrupt the Supply Lines - veto an attack
+- <action> - Sneak Attack - override a veto
+- <action> - State Auction - each player secretly chooses a number, then everybody reveals simultaneously - the player(s) with the highest number lose that many coins and/or troops, and each other player gains coins and/or troops equal to the number they chose
+/*- <action> choose another player - your faction ability becomes their faction ability*/
+/*- <action> discard a player's action card - they can not respond to this*/
+/*- <action> a vote passes*/
+
+- <law> - Requirement of the Legislature to Consult Oracles in Matters Concerning the Law - all yes/no votes are decided by coin flip
+- <law> - To Ensure the Expedient Passing of Bills - tied votes now count as passes
+- <law> - Establishment of a Fine for Those Who Impede the Progress of Law - players on the losing side of each yes/no vote lose a coin
+- <law> - To Prevent the Establishment of Political Machines - break all alliances when this law passes - each player can have no more than one ally
+- <law> - Increased Requirements for the Living Standards of Armed Forces - troops cost one coin more
+- <law> - Act for the Unpaid Conscription of Citizens in Times of Necessity - troops cost one coin less
+- <law> - Enactment of Penalties for Breaking the Peace - whenever a player attacks, they lose one coin for each other player, and each other player gains a coin
+- <law> - Agreement to Decrease Political Hostilities - players can now win (or tie) by eliminating only one of their targets
+- <law> - Homeland Defence Act - defending troops are twice as effective in combat
+- <law> - Increased Support Infrastructures for Military Activities - attacking troops are twice as effective in combat
+- <law> - Establishment of Trade Organization to Ensure Mutual Prosperity - each player gains an extra coin at the beginning of each of their turns
+- <law> - Minority Representation Act - the player with the least troops (or tied for least troops) gets two votes
+- <law> - Establishment of Embassies for Encouragement of Inter-Faction Cooperation - at the end of each player's turn, they flip a coin for each opponent and become allies with them if heads
+- <law> - Act to Facilitate Friendly Relations Among Factions - alliances can be formed unilaterally
+- <law> - An Act to Discourage Hostilities Via Retaliatory Action - during each player's turn, they must attack at least one player that has attacked them since their last turn if able
+- <law> - Establishment of Ministry to Provide Emergency Aid to War-Stricken Parties - if a player would lose the game, instead destroy all their coins and troops, then they gain three coins and recruit three troops
+- <law> - An Act to Punish Espionage, and to Protect the Keeping of State Secrets - players do not reveal their action cards
+- <law> - Agreement to Reduce Political Intervention in Inter-Faction Affairs - vetoing costs a coin
+- <law> - Agreement of Political Non-Intervention in Inter-Faction Affairs - attacks can not be vetoed
+- <law> - To Prevent the Formation of Special Powers in Political Entities - players lose their special abilities
